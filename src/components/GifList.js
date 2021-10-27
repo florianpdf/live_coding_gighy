@@ -3,7 +3,7 @@ import Gif from "./Gif"
 const GifList = ({datas, setSelectedGif}) => {
 
     if (!datas) {
-        return <p>Loading...</p>
+        return <p className="center">Loading...</p>
     }
 
     return (

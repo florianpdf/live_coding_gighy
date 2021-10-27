@@ -1,0 +1,18 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gifsBox {
+    display: flex;
+    margin: 200 20 200 20
+}
+.selectedGif {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.gifList {
+    display: flex;
+    width: 50%;
+}

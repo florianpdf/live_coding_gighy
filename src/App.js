@@ -21,11 +21,13 @@ function App() {
 
     return (
         <div className="app">
-            <div className="selectedGif">
-                <SelectedGif data={selectedGif}/>
-            </div>
-            <div className="gifList">
-                <GifList datas={gifs} setSelectedGif={setSelectedGif} />
+            <div className="gifsBox">
+                <div className="selectedGif">
+                    <SelectedGif data={selectedGif}/>
+                </div>
+                <div className="gifList">
+                    <GifList datas={gifs} setSelectedGif={setSelectedGif} />
+                </div>
             </div>
         </div>
     );
