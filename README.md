@@ -14,6 +14,11 @@ Create a page that will display a list of gifs and show the selected gif.
 
 4. when clicking on a `Gif`, it is displayed on `SelectedGif`
 
+# TODO: Add your API Key
+1. Create a file `secret.js` in `src` folder
+2. Put `export const apiKey = "your_api_key_here"` in there
+3. In App.js, import your apiKey with `import { apiKey } from "./secret.js"
+
 ## Requirements
 - React props, react state.
 - Fetch.
